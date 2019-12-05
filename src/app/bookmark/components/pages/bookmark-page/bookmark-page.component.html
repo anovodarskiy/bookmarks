@@ -1,0 +1,14 @@
+<mat-card>
+  <app-bookmark-list *ngFor="let item of bookmarks$ | async | groupByField: 'group'" [loading]="loading$ | async"
+    [title]="item.key">
+    <app-bookmark-list-item *ngFor="let bookmark of item.value" [bookmark]="bookmark" (update)="showEditDialog($event)"
+      (remove)="showRemoveDialog($event)">
+    </app-bookmark-list-item>
+  </app-bookmark-list>
+</mat-card>
+
+<div class="fab-bottom-right">
+  <button mat-fab color="accent" aria-label="Add" (click)="showCreateDialog()">
+    <mat-icon>add</mat-icon>
+  </button>
+</div>

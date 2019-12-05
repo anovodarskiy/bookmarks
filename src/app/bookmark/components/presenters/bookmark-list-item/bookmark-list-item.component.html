@@ -1,0 +1,6 @@
+<mat-list-item role="listitem" (click)="update.emit(bookmark)">
+  <p matLine>{{ bookmark.name }}: {{ bookmark.url }}</p>
+  <button mat-icon-button color="warn" aria-label="Remove" (click)="remove.emit(bookmark.id); $event.stopPropagation()">
+    <mat-icon>delete_outlined</mat-icon>
+  </button>
+</mat-list-item>
