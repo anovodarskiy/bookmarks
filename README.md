@@ -1,5 +1,5 @@
 # Bookmarks test app
-##Screnshots
+For backend used HTTP_INTERCEPTOR located in `src/app/helpers/fake-backend.ts
 
 ## How to run
 ### 1. Install dependencies:
@@ -19,3 +19,11 @@
 `npm run build`
 ### 7. Run linting
 `npm run lint`
+
+##Screnshots
+![Alt screeen](./screenshots/screen(1).png?raw=true)
+![Alt screeen](./screenshots/screen(2).png?raw=true)
+![Alt screeen](./screenshots/screen(3).png?raw=true)
+![Alt screeen](./screenshots/screen(4).png?raw=true)
+![Alt screeen](./screenshots/screen(5).png?raw=true)
+![Alt screeen](./screenshots/screen(6).png?raw=true)
