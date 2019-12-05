@@ -20,7 +20,7 @@ For backend used HTTP_INTERCEPTOR located in `src/app/helpers/fake-backend.ts
 ### 7. Run linting
 `npm run lint`
 
-##Screnshots
+## Screnshots
 ![Alt screeen](./screenshots/screen(1).png?raw=true)
 ![Alt screeen](./screenshots/screen(2).png?raw=true)
 ![Alt screeen](./screenshots/screen(3).png?raw=true)
